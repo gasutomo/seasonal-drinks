@@ -74,5 +74,12 @@ h1 {
     font-size: 20px;
     margin-top: 20px;
     color: #333;
-    font-weight: bold;
+	font-weight: bold;
+}
+
+.slot img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover; /* 画像を丸く切り抜く */
+    border-radius: 50%; /* ← これで丸くなる */
 }
